@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cvSite", "cvSite\cvSite.csproj", "{99E84FF3-8BB3-423A-AF65-C0B539E29690}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cvSiteApi", "cvSite\cvSiteApi.csproj", "{99E84FF3-8BB3-423A-AF65-C0B539E29690}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubHandler", "GitHubService\GitHubHandler.csproj", "{94CB6C75-A313-4DE0-BB66-72DD0EDA6006}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{99E84FF3-8BB3-423A-AF65-C0B539E29690}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99E84FF3-8BB3-423A-AF65-C0B539E29690}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99E84FF3-8BB3-423A-AF65-C0B539E29690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94CB6C75-A313-4DE0-BB66-72DD0EDA6006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94CB6C75-A313-4DE0-BB66-72DD0EDA6006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94CB6C75-A313-4DE0-BB66-72DD0EDA6006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94CB6C75-A313-4DE0-BB66-72DD0EDA6006}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

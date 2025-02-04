@@ -1,3 +1,5 @@
+using GitHubHandler;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,8 +9,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+var Token = builder.Configuration["gitHubAccessToken"];
+
 var app = builder.Build();
 
+builder.Services.AddScoped<IGitHubService, GitHubService>();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
